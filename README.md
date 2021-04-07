@@ -1,5 +1,18 @@
 # Anime-Data-Scraper
-Anime Data Scrapers is repository with are two web scraping applications that scrap from [GogoAnime](http://gogoanime.io/) and [Anime News Network](https://www.animenewsnetwork.com/). 
+
+
+# Table of Contents
+1. [About](https://github.com/RoshanPShetty/Anime-Data-Scraper/blob/master/README.md#about)
+2. [Support](https://github.com/RoshanPShetty/Anime-Data-Scraper/blob/master/README.md#support)
+3. [Contributing](https://github.com/RoshanPShetty/Anime-Data-Scraper/blob/master/README.md#contributing)
+4. [Copyright](https://github.com/RoshanPShetty/Anime-Data-Scraper/blob/master/README.md#Copyright)
+
+# About
+Anime Data Scrapers is repository with are two web scraping applications that scrap from [GogoAnime](http://gogoanime.io/) and [Anime News Network](https://www.animenewsnetwork.com/). Built with:
+
+* [Python](https://www.python.org/)
+* [JSON](https://www.json.org/json-en.html) 
+
 
 ## anime_scraper.py
 This allow users to search the details and be provided the links to the anime they search. The data is scraped from [GogoAnime](http://gogoanime.io/) and then asks the user if they also want links to the anime. The demo for how it works is show below:
@@ -18,6 +31,8 @@ This allows users to scrap underrated anime from  [Anime News Network](https://w
         "rating": "7.94"
 }
 ```
+
+>Join the [Discord Server](https://discord.gg/CJ34vpzU) for upcoming updates or to just say Hi. 
 
 # Support
 This project is completely free to use and it's solely maintained by me which takes a lot of my time. Just fork the project and pull it and I'll merge the requests.
