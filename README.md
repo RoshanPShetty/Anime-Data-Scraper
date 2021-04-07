@@ -20,7 +20,7 @@ This allows users to scrap underrated anime from  [Anime News Network](https://w
 ```
 
 # Support
-This project is completely free to use and it's solely maintained by me, from front-end to back-end to frequent database updates, which takes a lot of my time. That is also the reason I stopped maintaining it for a long time. So to keep the API free forever, please consider donating. That would be greatly appreciated.
+This project is completely free to use and it's solely maintained by me which takes a lot of my time. Just fork the project and pull it and I'll merge the requests.
 
 # Contributing
 * For new anime requests please add a comment here.
