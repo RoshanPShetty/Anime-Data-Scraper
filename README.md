@@ -9,3 +9,11 @@ This allow users to search the details and be provided the links to the anime th
 ## underrated_anime_scraper.py
 This allows users to scrap underrated anime from  [Anime News Network](https://www.animenewsnetwork.com/) and convert it into JSON and save it as a separate JSON file. This scraper was used while building Anime Plug API that allows users to get underrated anime from a over a choice of 500.
 
+### Sample JSON that was converted
+
+```json
+{
+        "title": "Space Battleship Yamato 2199 Chapter 7: Soshite Kan wa Iku (movie)",
+        "source": "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=15552",
+        "rating": "7.94"
+}
