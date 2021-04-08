@@ -1,6 +1,3 @@
-# Anime-Data-Scraper
-
-
 # Table of Contents
 1. [About](https://github.com/RoshanPShetty/Anime-Data-Scraper/blob/master/README.md#about)
 2. [Support](https://github.com/RoshanPShetty/Anime-Data-Scraper/blob/master/README.md#support)
