@@ -2,6 +2,8 @@
 from bs4 import BeautifulSoup
 import requests
 import json
+import pandas as pd
+import unicodedata
 
 # Retreives the html text from the link as a content
 html_text = requests.get(
@@ -35,12 +37,12 @@ for i in rows:
         rating = i.find("td", class_="r")
 
         # Appending all of these data in a key-value pair passed as a dicitionary to the data array
-        data.append({"title": title.text, "source": "https://www.animenewsnetwork.com" +
-                     source['href'], "rating": rating.text})
+        data.append({"title": str(title.text), "source": "https://www.animenewsnetwork.com" +
+                     source['href'], "rating": float(rating.text)})
 
     # Incrementing count for each iteration
     count += 1
 
 # Converting arrary with the dictionary into JSON and "dumping" all the data into a newly created JSON file
-with open("anime.json", "w") as f:
+with open("underrated_anime.json", "w") as f:
     json.dump(data, f, indent=4)
